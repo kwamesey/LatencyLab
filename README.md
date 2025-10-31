@@ -1,19 +1,21 @@
-# latency-lab 🚀
+# latency-lab 🚀  
+**Network Telemetry + Real-Time Visualization**
 
-A **network telemetry & visualization** project designed to look great on your GitHub and impress SWE recruiters.
-
-**What it is:**  
-- A tiny observability stack that measures **latency, jitter, and packet loss** to any set of targets.  
-- A lightweight **Agent** (CLI) that collects metrics and posts them to the **Server** (FastAPI).  
-- A clean, zero-JS-build **Dashboard** (HTMX + Chart.js CDN) to visualize metrics in real time.
-
-**Why it's impressive:**  
-- Systems-y: async I/O, structured logs, graceful shutdown, retry/backoff, pydantic schemas.  
-- Networking: ICMP/`ping` integration, jitter calculation, rolling windows.  
-- Backend: FastAPI, dependency-injected services, typed models, tests & CI.  
-- DevEx: `docker-compose up` to run; `pytest` + linting in CI; MIT license.
+This is a project I built to combine my interests in **networking, backend systems, and real-time data visualization**.  
+`latency-lab` is a lightweight observability stack that measures latency, jitter, and packet loss across multiple targets, then visualizes everything in a clean dashboard.  
 
 ---
 
-## Architecture
+## 💡 Why I Built It
+I wanted to create something that felt like a real-world engineering tool — something that touches async systems, REST APIs, and live dashboards all in one stack.  
+`latency-lab` is meant to show what I can do across multiple areas:
+- **Systems thinking:** async I/O, retry logic, structured logging  
+- **Networking:** ICMP ping probing, jitter + packet-loss tracking  
+- **Backend:** FastAPI server, SQLite database, JSON APIs  
+- **Frontend:** real-time visualization using HTMX + Chart.js  
+- **DevOps:** containerized setup with Docker + GitHub Actions CI  
+
+---
+
+## ⚙️ Architecture
 
